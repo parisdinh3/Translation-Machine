@@ -4,6 +4,79 @@ body {
 }
 
 .sorry {
-  font-size:100px;
+  font-size:80px;
   top:500px;
+}
+.how {
+  font-size:50px;
+  bottom:300px;
+  right:500px;
+}
+
+.love {
+  font-size:100px;
+  margin:0 auto;
+  display:block;
+  text-align:center;
+}
+
+.fat {
+  font-size:30px;
+  bottom:50px;
+  right:40px;
+}
+.position {
+  position:absolute;
+}
+
+.one {
+  font-size:50px;
+  bottom:400px;
+  right:200px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.one:hover {
+  opacity:1;
+}
+
+.two {
+  font-size:80px;
+  bottom:300px;
+  left:300px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.two:hover {
+  opacity:1;
+}
+.three {
+  font-size:50px;
+  bottom:500px;
+  right:300px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.three:hover {
+  opacity:1;
+}
+.four {
+  font-size:50px;
+  bottom:600px;
+  right:500px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.four:hover{
+  opacity:1;
+}
+.five {
+  font-size:100px;
+  left:0px;
+  bottom:50px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.five:hover{
+  opacity:1;
 }
