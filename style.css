@@ -100,3 +100,33 @@ body {
 .seven:hover{
   opacity:1;
 }
+.eight {
+  font-size:80px;
+  left:90px;
+  bottom:150px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.eight:hover{
+  opacity:1;
+}
+.nine {
+  font-size:70px;
+  left:150px;
+  bottom:300px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.nine:hover {
+  opacity:1;
+}
+.ten {
+  font-size:40px;
+  left:80px;
+  bottom:440px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.ten:hover {
+  opacity:1;
+}
