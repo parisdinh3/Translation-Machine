@@ -80,3 +80,23 @@ body {
 .five:hover{
   opacity:1;
 }
+.six {
+  font-size:70px;
+  right:50px;
+  bottom:90px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.six:hover {
+  opacity:1;
+}
+.seven {
+  font-size:80px;
+  left:50px;
+  top:50px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.seven:hover{
+  opacity:1;
+}
