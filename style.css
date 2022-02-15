@@ -1,8 +1,42 @@
 body {
   background-color:lavender;
   font-family:'Be Vietnam Pro', sans-serif;
+  color:white;
+}
+/* unvisited link */
+a:link {
+  color: white;
 }
 
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: indianred;
+}
+
+/* selected link */
+a:active {
+  color: lavender;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 .sorry {
   font-size:80px;
   top:500px;

@@ -8,7 +8,6 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="portfavi.png">
   </head>
 
   <body>
@@ -27,3 +26,13 @@
  <div class='light x7'></div>
  <div class='light x8'></div>
  <div class='light x9'></div>
+
+ <h2>Translation List</h2>
+
+ <p>Search for a meaning in the input field:</p>
+
+ <input oninput="w3.filterHTML('#id01', 'li', this.value)" placeholder="Search for language..">
+
+ <ul id="id01">
+    <li>Some other text to search</li>
+ </ul>
