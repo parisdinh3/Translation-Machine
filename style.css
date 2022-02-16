@@ -53,7 +53,11 @@ a:active {
   display:block;
   text-align:center;
 }
-
+.money {
+  font-size:40px;
+  top:200px;
+  left:100px;
+}
 .fat {
   font-size:30px;
   bottom:50px;
@@ -162,6 +166,26 @@ a:active {
   transition: opacity 1s ease-in-out;
 }
 .ten:hover {
+  opacity:1;
+}
+.eleven {
+  font-size:60px;
+  bottom:250px;
+  left:300px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.eleven:hover {
+  opacity:1;
+}
+.twelve{
+  font-size:40px;
+  bottom:50px;
+  left:30px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.twelve:hover {
   opacity:1;
 }
 body {
