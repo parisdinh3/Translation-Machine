@@ -4,7 +4,7 @@ body {
   color:white;
 }
 .button {
-  background: royalblue;
+  /* background: royalblue; */
   display: flex;
   flex-direction: row;
   padding: 12px;
