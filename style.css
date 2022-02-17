@@ -4,20 +4,20 @@ body {
   color:white;
 }
 .button {
-  /* background: royalblue; */
-  display: flex;
-  flex-direction: row;
+  background: thistle;
   padding: 12px;
-  justify-content: center;
+  text-align: center;
   border-radius: 12px;
   font-family: 'Be-Vietnam Pro', sans-serif;
   text-decoration: none;
-  color: black;
   font-size: 20px;
+  bottom:0px;
+  display: flex;
+  flex-direction: row;
 }
 
 .button:hover {
-  background: red;
+  background: ghostwhite;
 }
 /* unvisited link */
 a:link {
@@ -82,7 +82,14 @@ a:active {
 .position {
   position:absolute;
 }
-
+.rules {
+width: 300px;
+border: 5px solid white;
+padding: 50px;
+margin: 20px;
+right:350px;
+bottom:262px;
+}
 .one {
   font-size:50px;
   bottom:400px;
@@ -534,3 +541,5 @@ button:focus{
 
 
 Resources
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 800px) {
