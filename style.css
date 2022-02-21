@@ -88,7 +88,7 @@ border: 5px solid white;
 padding: 50px;
 margin: 20px;
 right:350px;
-bottom:262px;
+bottom:350px;
 }
 .one {
   font-size:50px;
@@ -209,6 +209,16 @@ bottom:262px;
   transition: opacity 1s ease-in-out;
 }
 .twelve:hover {
+  opacity:1;
+}
+.thirteen {
+  font-size:40px;
+  bottom:200px;
+  left:250px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.thirteen:hover {
   opacity:1;
 }
 body {
