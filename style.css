@@ -4,12 +4,12 @@ body {
   color:white;
 }
 .button {
-  background: thistle;
+  background: coral;
+  color:black;
   padding: 12px;
   text-align: center;
   border-radius: 12px;
   font-family: 'Be-Vietnam Pro', sans-serif;
-  text-decoration: none;
   font-size: 20px;
   bottom:0px;
   display: flex;
@@ -234,6 +234,16 @@ bottom:350px;
   transition: opacity 1s ease-in-out;
 }
 .fourteen:hover {
+  opacity:1;
+}
+.fifteen {
+  font-size:80px;
+  bottom:500px;
+  leftt:100px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.fifteen:hover {
   opacity:1;
 }
 body {
