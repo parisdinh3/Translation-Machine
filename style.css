@@ -84,6 +84,11 @@ a:active {
   top:650px;
   right:350px;
 }
+.favtwo {
+  font-size:25px;
+  right:100px;
+  top:200px;
+}
 .position {
   position:absolute;
 }
@@ -95,6 +100,7 @@ margin: 20px;
 right:350px;
 bottom:350px;
 }
+
 .one {
   font-size:50px;
   bottom:400px;
