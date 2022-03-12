@@ -20,13 +20,16 @@
    <div class='light x8'></div>
    <div class='light x9'></div>
 
-   <div id="mydiv">
-     <div id="mydivheader">Click here to move</div>
-   </div>
-
+   <span id="mydiv">
+     <span id="mydivheader">I love you</span>
+   </span>
+   <div id="divvy">
+<div id="two">hi</div>
+</div>
    <script>
    //Make the DIV element draggagle:
-   dragElement(document.getElementById("mydiv"));
+   dragElement(document.getElementById("divvy"));
+      dragElement(document.getElementById("mydiv"));
 
    function dragElement(elmnt) {
      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
