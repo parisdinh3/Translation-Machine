@@ -163,7 +163,18 @@ margin: 15px;
 right:350px;
 bottom:320px;
 }
+.info {
+  width:300px;
+  border:5px solid white;
+  padding:20px;
+  text-align:center;
+  bottom:250px;
+  right:550px;
 
+}
+.ready {
+  font-size:30px;
+}
 .one {
   font-size:50px;
   bottom:400px;
@@ -313,6 +324,14 @@ bottom:320px;
   transition: opacity 1s ease-in-out;
 }
 .fifteen:hover {
+  opacity:1;
+}
+.sixteen {
+  font-size:50px;
+  opacity:0;
+  transition: opacity 1s ease-in-out;
+}
+.sixteen:hover {
   opacity:1;
 }
 body {
