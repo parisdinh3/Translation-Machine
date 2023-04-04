@@ -37,7 +37,7 @@ var Particles = (function(window, document) {
       var _ = this;
 
       _.defaults = {
-        responsive: null,
+        responsive: true,
         selector: null,
         maxParticles: 100,
         sizeVariations: 3,
