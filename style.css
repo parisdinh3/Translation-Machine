@@ -1,5 +1,5 @@
 body {
-  background-color: #b61924;
+  background-color: #98C893;
   margin: 0;
   padding: 0;
 }
@@ -289,30 +289,6 @@ button:focus{
 }
 
 
-
-#head1 {
-  opacity: 100;
-  background-color:white;
-  padding: 20px;
-  border-radius:12px;
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-  max-width:1000px;
-  width:100%;
-  margin:0 auto;
-  position:relative;
-  top:300px;
-  align-items:center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  color: black;
-  font-size: 2em;
-
-}
-
-
 @-webkit-keyframes floatUp{
   0%{top: 100vh; opacity: 0;}
   25%{opacity: 1;}
@@ -427,7 +403,7 @@ canvas{
   height: 100vh;
   position:fixed;
   z-index:-1;
-  background-color: #b61924;
+  background-color: #98C893;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
