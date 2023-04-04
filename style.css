@@ -1,344 +1,174 @@
 body {
-  background-color:lavender;
-  font-family:'Be Vietnam Pro', sans-serif;
-  color:white;
+  background-color: #b61924;
+}
+.header-container {
+  display: flex;
+  max-width: 100vw;
+  height:100%;
 }
 
-#mydiv {
- position: absolute;
- z-index: 9;
- background-color: #f1f1f1;
- text-align: center;
- border: 1px solid #d3d3d3;
-}
-
-#mydivheader {
- padding: 10px;
- cursor: move;
- z-index: 10;
- background-color: #2196F3;
- color: #fff;
-}
-#divvy {
-  position:absolute;
-  z-index:9;
-  background-color: #f1f1f1;
-  text-align: center;
-  border: 1px solid #d3d3d3;
-
-}
-#two {
- padding: 10px;
- cursor: move;
- z-index: 10;
- background-color: #2196F3;
- color: #fff;
+.headbar {
+  background: white;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  max-width:1000px;
+  width:100%;
+  border-radius: 12px;
+  margin:0 auto;
 }
 
 .button {
-  background: coral;
-  color:black;
-  padding: 12px;
-  text-align: center;
-  border-radius: 12px;
-  font-family: 'Be-Vietnam Pro', sans-serif;
-  font-size: 20px;
-  bottom:0px;
+  background: royalblue;
   display: flex;
   flex-direction: row;
-}
-.butwo {
-  background: coral;
-  color:black;
   padding: 12px;
-  text-align: center;
+  justify-content: center;
   border-radius: 12px;
-  font-family: 'Be-Vietnam Pro', sans-serif;
+  font-family: 'Overpass', sans-serif;
+  text-decoration: none;
+  color: black;
   font-size: 20px;
-  left:200px;
-  bottom:0px;
-  display: flex;
-  flex-direction: row;
 }
-.butwo:hover {
-  background: ghostwhite;
-}
-.buthree {
-  background: coral;
-  color:black;
-  padding: 12px;
-  text-align: center;
-  border-radius: 12px;
-  font-family: 'Be-Vietnam Pro', sans-serif;
-  font-size: 20px;
-  left:585px;
-  bottom:0px;
-  display: flex;
-  flex-direction: row;
-}
-.buthree:hover {
-  background:ghostwhite;
-}
+
 .button:hover {
-  background: ghostwhite;
-}
-/* unvisited link */
-a:link {
-  color: white;
+  background: red;
 }
 
-/* visited link */
-a:visited {
-  color: white;
+.padding {
+  padding: 100px;
 }
 
-/* mouse over link */
-a:hover {
-  color: indianred;
-}
-
-/* selected link */
-a:active {
-  color: lavender;
-}
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-.sorry {
-  font-size:80px;
-  top:500px;
-}
-.how {
-  font-size:50px;
-  bottom:300px;
-  right:500px;
-}
-
-.love {
-  font-size:100px;
+.aboutbox {
+  padding: 20px;
+  background-color: snow;
+  border-radius:12px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  max-width:1000px;
+  width:100%;
+  border-radius: 12px;
   margin:0 auto;
-  display:block;
-  text-align:center;
-}
-.money {
-  font-size:40px;
-  top:200px;
-  left:100px;
-}
-.fat {
-  font-size:30px;
-  bottom:50px;
-  right:40px;
-}
-.fav {
-  font-size:40px;
-  bottom:200px;
-  right:350px;
-}
-.favtwo {
-  font-size:25px;
-  right:100px;
-  top:200px;
-}
-.position {
   position:absolute;
 }
-.rules {
-width: 300px;
-border: 5px solid white;
-padding: 20px;
-margin: 15px;
-right:350px;
-bottom:320px;
-}
-.info {
-  width:300px;
-  border:5px solid white;
-  padding:20px;
-  text-align:center;
-  bottom:250px;
-  right:550px;
 
-}
-.ready {
-  font-size:30px;
-}
-.one {
-  font-size:50px;
-  bottom:400px;
-  right:200px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.one:hover {
-  opacity:1;
+.x1{
+  -webkit-animation: floatUp 4s infinite linear;
+  -moz-animation: floatUp 4s infinite linear;
+  -o-animation: floatUp 4s infinite linear;
+  animation: floatUp 4s infinite linear;
+   -webkit-transform: scale(1.0);
+   -moz-transform: scale(1.0);
+   -o-transform: scale(1.0);
+  transform: scale(1.0);
 }
 
-.two {
-  font-size:80px;
-  bottom:300px;
-  left:300px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
+.x2{
+  -webkit-animation: floatUp 7s infinite linear;
+  -moz-animation: floatUp 7s infinite linear;
+  -o-animation: floatUp 7s infinite linear;
+  animation: floatUp 7s infinite linear;
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
+  left: 15%;
 }
-.two:hover {
-  opacity:1;
+
+.x3{
+  -webkit-animation: floatUp 2.5s infinite linear;
+  -moz-animation: floatUp 2.5s infinite linear;
+  -o-animation: floatUp 2.5s infinite linear;
+  animation: floatUp 2.5s infinite linear;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  -o-transform: scale(.5);
+  transform: scale(.5);
+  left: -15%;
 }
-.three {
-  font-size:50px;
-  bottom:500px;
-  right:300px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
+
+.x4{
+  -webkit-animation: floatUp 4.5s infinite linear;
+  -moz-animation: floatUp 4.5s infinite linear;
+  -o-animation: floatUp 4.5s infinite linear;
+  animation: floatUp 4.5s infinite linear;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  left: -34%;
 }
-.three:hover {
-  opacity:1;
+
+.x5{
+  -webkit-animation: floatUp 8s infinite linear;
+  -moz-animation: floatUp 8s infinite linear;
+  -o-animation: floatUp 8s infinite linear;
+  animation: floatUp 8s infinite linear;
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  transform: scale(2.2);
+  left: -57%;
 }
-.four {
-  font-size:50px;
-  bottom:600px;
-  right:500px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
+
+.x6{
+  -webkit-animation: floatUp 3s infinite linear;
+  -moz-animation: floatUp 3s infinite linear;
+  -o-animation: floatUp 3s infinite linear;
+  animation: floatUp 3s infinite linear;
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -o-transform: scale(.8);
+  transform: scale(.8);
+  left: -81%;
 }
-.four:hover{
-  opacity:1;
+
+.x7{
+  -webkit-animation: floatUp 5.3s infinite linear;
+  -moz-animation: floatUp 5.3s infinite linear;
+  -o-animation: floatUp 5.3s infinite linear;
+  animation: floatUp 5.3s infinite linear;
+  -webkit-transform: scale(3.2);
+  -moz-transform: scale(3.2);
+  -o-transform: scale(3.2);
+  transform: scale(3.2);
+  left: 37%;
 }
-.five {
-  font-size:100px;
-  left:0px;
-  bottom:50px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
+
+.x8{
+  -webkit-animation: floatUp 4.7s infinite linear;
+  -moz-animation: floatUp 4.7s infinite linear;
+  -o-animation: floatUp 4.7s infinite linear;
+  animation: floatUp 4.7s infinite linear;
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  -o-transform: scale(1.7);
+  transform: scale(1.7);
+  left: 62%;
 }
-.five:hover{
-  opacity:1;
+
+.x9{
+  -webkit-animation: floatUp 4.1s infinite linear;
+  -moz-animation: floatUp 4.1s infinite linear;
+  -o-animation: floatUp 4.1s infinite linear;
+  animation: floatUp 4.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: 85%;
 }
-.six {
-  font-size:70px;
-  right:50px;
-  bottom:90px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.six:hover {
-  opacity:1;
-}
-.seven {
-  font-size:80px;
-  left:50px;
-  top:50px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.seven:hover{
-  opacity:1;
-}
-.eight {
-  font-size:80px;
-  left:90px;
-  bottom:150px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.eight:hover{
-  opacity:1;
-}
-.nine {
-  font-size:70px;
-  left:150px;
-  bottom:300px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.nine:hover {
-  opacity:1;
-}
-.ten {
-  font-size:40px;
-  left:80px;
-  bottom:440px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.ten:hover {
-  opacity:1;
-}
-.eleven {
-  font-size:60px;
-  bottom:250px;
-  left:300px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.eleven:hover {
-  opacity:1;
-}
-.twelve{
-  font-size:40px;
-  bottom:50px;
-  left:30px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.twelve:hover {
-  opacity:1;
-}
-.thirteen {
-  font-size:40px;
-  bottom:200px;
-  left:250px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.thirteen:hover {
-  opacity:1;
-}
-.fourteen {
-  font-size:80px;
-  bottom:200px;
-  right:100px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.fourteen:hover {
-  opacity:1;
-}
-.fifteen {
-  font-size:80px;
-  bottom:500px;
-  leftt:100px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.fifteen:hover {
-  opacity:1;
-}
-.sixteen {
-  font-size:50px;
-  opacity:0;
-  transition: opacity 1s ease-in-out;
-}
-.sixteen:hover {
-  opacity:1;
-}
-body {
+
+/* body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#A2A4FF,#1f1013);
+    background: radial-gradient(moccasin,indianred,darkred);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -347,8 +177,7 @@ body {
     -moz-animation: fadeIn 1 1s ease-out;
     -o-animation: fadeIn 1 1s ease-out;
     animation: fadeIn 1 1s ease-out;
-}
-
+} */
 
 .light {
     position: absolute;
@@ -504,75 +333,60 @@ button:focus{
   100%{top: -100vh; opacity: 0;}
 }
 
-.header{
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
+#head1 {
+  opacity: 100;
+  background-color:white;
+  padding: 20px;
+  border-radius:12px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  max-width:1000px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  top:300px;
+  align-items:center;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  color: white;
+  color: black;
   font-size: 2em;
+
 }
 
-#head1, #head2,#head3, #head4, #head5{
-  opacity: 0;
+
+@-webkit-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@-moz-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@-o-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
 }
 
-#head1{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-}
-
-#head2{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  animation-delay: 6s;
-}
-
-#head3{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  animation-delay: 12s;
-}
-
-#head4{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 17s;
-  -moz-animation-delay: 17s;
-  -o-animation-delay: 17s;
-  animation-delay: 17s;
-}
-
-#head5{
-  -webkit-animation: finalFade 1 5s ease-in;
-  -moz-animation: finalFade 1 5s ease-in;
-  -o-animation: finalFade 1 5s ease-in;
-  animation: finalFade 1 5s ease-in;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 22s;
-  -moz-animation-delay: 22s;
-  -o-animation-delay: 22s;
-  animation-delay: 22s;
-}
 
 @-webkit-keyframes fadeIn{
   from{opacity: 0;}
@@ -649,20 +463,23 @@ button:focus{
   80%{opacity: .9;}
   100%{opacity: 1;}
 }
-
-#footer{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-  color: white;
-  position: fixed;
-  -webkit-transform: translate(95vw,90vh);
-  -moz-transform: translate(95vw,90vh);
-  transform: translate(95vw,90vh);
-  transform: translate(95vw,90vh);
+canvas{
+  display:block;
+  vertical-align:bottom;
 }
+#particles-js{
+  width: 100vw;
+  height: 100vh;
+  position:fixed;
+  z-index:-1;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width:800px) {
 
-
-
-Resources
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 800px) {
+  body{
+    font-size:10px;
+  }
